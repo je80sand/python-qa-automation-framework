@@ -1,3 +1,3 @@
-def test_intentional_failure(driver):
+def test_page_title(driver):
     driver.get("https://the-internet.herokuapp.com/login")
-    assert "Google" in driver.title
+    assert "The Internet" in driver.title
