@@ -1,3 +1,7 @@
+![CI](https://github.com/je80sand/python-qa-automation-framework/actions/workflows/ci.yml/badge.svg)
+
+# Python QA Automation Framework
+
 # Python QA Automation Framework
 
 A scalable Selenium + Pytest automation framework built using the Page Object Model.  
