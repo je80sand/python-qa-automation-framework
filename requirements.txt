@@ -29,3 +29,4 @@ wsproto==1.3.2
 pytest-xdist
 PyYAML==6.0.1
 pytest-html
+allure-pytest

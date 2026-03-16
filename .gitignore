@@ -1,0 +1,13 @@
+# Python cache
+__pycache__/
+.pytest_cache/
+*.pyc
+
+# Virtual environment
+venv/
+
+# Generated reports
+report.html
+reports/
+allure-results/
+allure-report/
