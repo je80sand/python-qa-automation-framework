@@ -1,0 +1,102 @@
+2026-03-14 23:08:45,675 | INFO | conftest | Creating test driver
+2026-03-14 23:08:45,681 | INFO | driver_factory | Starting Chrome WebDriver
+2026-03-14 23:08:49,404 | INFO | LoginPage | Opening URL: https://the-internet.herokuapp.com/login
+2026-03-14 23:08:50,658 | INFO | LoginPage | Typing into element: ('id', 'username') with text: tomsmith
+2026-03-14 23:08:50,658 | INFO | LoginPage | Finding element: ('id', 'username')
+2026-03-14 23:08:50,943 | INFO | LoginPage | Typing into element: ('id', 'password') with text: SuperSecretPassword!
+2026-03-14 23:08:50,944 | INFO | LoginPage | Finding element: ('id', 'password')
+2026-03-14 23:08:51,110 | INFO | LoginPage | Clicking element: ('css selector', "button[type='submit']")
+2026-03-14 23:08:51,482 | INFO | LoginPage | Getting text from element: ('id', 'flash')
+2026-03-14 23:08:51,482 | INFO | LoginPage | Finding element: ('id', 'flash')
+2026-03-14 23:08:51,521 | INFO | conftest | Quitting test driver
+2026-03-14 23:08:51,623 | INFO | conftest | Creating test driver
+2026-03-14 23:08:51,625 | INFO | driver_factory | Starting Chrome WebDriver
+2026-03-14 23:08:53,233 | INFO | LoginPage | Opening URL: https://the-internet.herokuapp.com/login
+2026-03-14 23:08:54,377 | INFO | LoginPage | Typing into element: ('id', 'username') with text: wronguser
+2026-03-14 23:08:54,378 | INFO | LoginPage | Finding element: ('id', 'username')
+2026-03-14 23:08:54,536 | INFO | LoginPage | Typing into element: ('id', 'password') with text: wrongpassword
+2026-03-14 23:08:54,536 | INFO | LoginPage | Finding element: ('id', 'password')
+2026-03-14 23:08:54,687 | INFO | LoginPage | Clicking element: ('css selector', "button[type='submit']")
+2026-03-14 23:08:54,775 | INFO | LoginPage | Getting text from element: ('id', 'flash')
+2026-03-14 23:08:54,775 | INFO | LoginPage | Finding element: ('id', 'flash')
+2026-03-14 23:08:55,045 | INFO | conftest | Quitting test driver
+2026-03-14 23:08:55,143 | INFO | conftest | Creating test driver
+2026-03-14 23:08:55,145 | INFO | driver_factory | Starting Chrome WebDriver
+2026-03-14 23:08:57,916 | INFO | conftest | Quitting test driver
+2026-03-15 14:09:22,826 | INFO | conftest | Creating test driver
+2026-03-15 14:09:22,833 | INFO | driver_factory | Starting Chrome WebDriver
+2026-03-15 14:09:28,106 | INFO | LoginPage | Opening URL: https://the-internet.herokuapp.com/login
+2026-03-15 14:09:29,821 | INFO | LoginPage | Typing into element: ('id', 'username') with text: tomsmith
+2026-03-15 14:09:29,821 | INFO | LoginPage | Finding element: ('id', 'username')
+2026-03-15 14:09:30,024 | INFO | LoginPage | Typing into element: ('id', 'password') with text: SuperSecretPassword!
+2026-03-15 14:09:30,025 | INFO | LoginPage | Finding element: ('id', 'password')
+2026-03-15 14:09:30,189 | INFO | LoginPage | Clicking element: ('css selector', "button[type='submit']")
+2026-03-15 14:09:30,544 | INFO | LoginPage | Getting text from element: ('id', 'flash')
+2026-03-15 14:09:30,544 | INFO | LoginPage | Finding element: ('id', 'flash')
+2026-03-15 14:09:30,582 | INFO | conftest | Quitting test driver
+2026-03-15 14:09:30,677 | INFO | conftest | Creating test driver
+2026-03-15 14:09:30,678 | INFO | driver_factory | Starting Chrome WebDriver
+2026-03-15 14:09:32,332 | INFO | LoginPage | Opening URL: https://the-internet.herokuapp.com/login
+2026-03-15 14:09:33,535 | INFO | LoginPage | Typing into element: ('id', 'username') with text: wronguser
+2026-03-15 14:09:33,537 | INFO | LoginPage | Finding element: ('id', 'username')
+2026-03-15 14:09:33,697 | INFO | LoginPage | Typing into element: ('id', 'password') with text: wrongpassword
+2026-03-15 14:09:33,697 | INFO | LoginPage | Finding element: ('id', 'password')
+2026-03-15 14:09:33,859 | INFO | LoginPage | Clicking element: ('css selector', "button[type='submit']")
+2026-03-15 14:09:33,948 | INFO | LoginPage | Getting text from element: ('id', 'flash')
+2026-03-15 14:09:33,948 | INFO | LoginPage | Finding element: ('id', 'flash')
+2026-03-15 14:09:34,269 | INFO | conftest | Quitting test driver
+2026-03-15 14:09:34,357 | INFO | conftest | Creating test driver
+2026-03-15 14:09:34,358 | INFO | driver_factory | Starting Chrome WebDriver
+2026-03-15 14:09:37,077 | INFO | conftest | Quitting test driver
+2026-03-15 14:20:12,563 | INFO | conftest | Creating test driver
+2026-03-15 14:20:12,568 | INFO | driver_factory | Starting Chrome WebDriver
+2026-03-15 14:20:14,450 | INFO | LoginPage | Opening URL: https://the-internet.herokuapp.com/login
+2026-03-15 14:20:15,705 | INFO | LoginPage | Typing into element: ('id', 'username') with text: tomsmith
+2026-03-15 14:20:15,705 | INFO | LoginPage | Finding element: ('id', 'username')
+2026-03-15 14:20:15,870 | INFO | LoginPage | Typing into element: ('id', 'password') with text: SuperSecretPassword!
+2026-03-15 14:20:15,871 | INFO | LoginPage | Finding element: ('id', 'password')
+2026-03-15 14:20:16,036 | INFO | LoginPage | Clicking element: ('css selector', "button[type='submit']")
+2026-03-15 14:20:16,127 | INFO | LoginPage | Getting text from element: ('id', 'flash')
+2026-03-15 14:20:16,127 | INFO | LoginPage | Finding element: ('id', 'flash')
+2026-03-15 14:20:16,401 | INFO | conftest | Quitting test driver
+2026-03-15 14:20:16,498 | INFO | conftest | Creating test driver
+2026-03-15 14:20:16,500 | INFO | driver_factory | Starting Chrome WebDriver
+2026-03-15 14:20:18,128 | INFO | LoginPage | Opening URL: https://the-internet.herokuapp.com/login
+2026-03-15 14:20:19,328 | INFO | LoginPage | Typing into element: ('id', 'username') with text: wronguser
+2026-03-15 14:20:19,329 | INFO | LoginPage | Finding element: ('id', 'username')
+2026-03-15 14:20:19,490 | INFO | LoginPage | Typing into element: ('id', 'password') with text: wrongpassword
+2026-03-15 14:20:19,490 | INFO | LoginPage | Finding element: ('id', 'password')
+2026-03-15 14:20:19,645 | INFO | LoginPage | Clicking element: ('css selector', "button[type='submit']")
+2026-03-15 14:20:19,982 | INFO | LoginPage | Getting text from element: ('id', 'flash')
+2026-03-15 14:20:19,983 | INFO | LoginPage | Finding element: ('id', 'flash')
+2026-03-15 14:20:20,017 | INFO | conftest | Quitting test driver
+2026-03-15 14:20:20,123 | INFO | conftest | Creating test driver
+2026-03-15 14:20:20,127 | INFO | driver_factory | Starting Chrome WebDriver
+2026-03-15 14:20:21,665 | INFO | SearchPage | Opening URL: https://www.google.com
+2026-03-15 14:20:22,563 | INFO | conftest | Quitting test driver
+2026-03-15 19:05:21,986 | INFO | conftest | Creating test driver
+2026-03-15 19:05:21,986 | INFO | conftest | Creating test driver
+2026-03-15 19:05:21,993 | INFO | driver_factory | Starting Chrome WebDriver
+2026-03-15 19:05:21,993 | INFO | driver_factory | Starting Chrome WebDriver
+2026-03-15 19:05:28,900 | INFO | LoginPage | Opening URL: https://the-internet.herokuapp.com/login
+2026-03-15 19:05:28,916 | INFO | LoginPage | Opening URL: https://the-internet.herokuapp.com/login
+2026-03-15 19:05:30,276 | INFO | LoginPage | Typing into element: ('id', 'username') with text: wronguser
+2026-03-15 19:05:30,276 | INFO | LoginPage | Typing into element: ('id', 'username') with text: tomsmith
+2026-03-15 19:05:30,284 | INFO | LoginPage | Finding element: ('id', 'username')
+2026-03-15 19:05:30,292 | INFO | LoginPage | Finding element: ('id', 'username')
+2026-03-15 19:05:30,598 | INFO | LoginPage | Typing into element: ('id', 'password') with text: wrongpassword
+2026-03-15 19:05:30,598 | INFO | LoginPage | Typing into element: ('id', 'password') with text: SuperSecretPassword!
+2026-03-15 19:05:30,599 | INFO | LoginPage | Finding element: ('id', 'password')
+2026-03-15 19:05:30,599 | INFO | LoginPage | Finding element: ('id', 'password')
+2026-03-15 19:05:30,804 | INFO | LoginPage | Clicking element: ('css selector', "button[type='submit']")
+2026-03-15 19:05:30,817 | INFO | LoginPage | Clicking element: ('css selector', "button[type='submit']")
+2026-03-15 19:05:31,251 | INFO | LoginPage | Getting text from element: ('id', 'flash')
+2026-03-15 19:05:31,251 | INFO | LoginPage | Finding element: ('id', 'flash')
+2026-03-15 19:05:31,255 | INFO | LoginPage | Getting text from element: ('id', 'flash')
+2026-03-15 19:05:31,255 | INFO | LoginPage | Finding element: ('id', 'flash')
+2026-03-15 19:05:31,312 | INFO | conftest | Quitting test driver
+2026-03-15 19:05:31,312 | INFO | conftest | Quitting test driver
+2026-03-15 19:05:31,478 | INFO | conftest | Creating test driver
+2026-03-15 19:05:31,480 | INFO | driver_factory | Starting Chrome WebDriver
+2026-03-15 19:05:33,157 | INFO | SearchPage | Opening URL: https://www.google.com
+2026-03-15 19:05:33,850 | INFO | conftest | Quitting test driver

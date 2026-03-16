@@ -1,3 +1,7 @@
+from pages.search_page import SearchPage
+
+
 def test_page_title(driver):
-    driver.get("https://the-internet.herokuapp.com/login")
-    assert "The Internet" in driver.title
+    search_page = SearchPage(driver)
+    search_page.open()
+    assert "Google" in driver.title
