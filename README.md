@@ -1,21 +1,28 @@
 # Python QA Automation Framework
 
-A professional-grade Selenium test automation framework built with **Python, Pytest, and Page Object Model architecture**.
+A professional-grade **Selenium test automation framework** built with **Python, Pytest, and the Page Object Model (POM)**.
 
-This project demonstrates how a modern QA automation framework is structured for **scalability, maintainability, and CI integration**.
+This project demonstrates how a modern QA automation framework is structured for **scalability, maintainability, and continuous integration**.
 
-It includes:
+It simulates how automation frameworks are built in real engineering environments.
+
+---
+
+# Framework Capabilities
+
+This automation framework demonstrates modern QA engineering practices:
 
 - Selenium WebDriver automation
-- Page Object Model design pattern
-- Centralized configuration
-- Parallel test execution
-- Logging
-- Screenshots on failure
+- Page Object Model (POM)
+- centralized configuration management
+- reusable base page architecture
+- automatic screenshots on test failure
+- structured logging
+- parallel test execution using pytest-xdist
+- HTML test reporting
 - GitHub Actions CI pipeline
-- HTML test reports
 
-This framework simulates how real QA teams structure automation projects in production environments.
+These capabilities reflect how automation frameworks are designed in real production environments.
 
 ---
 
@@ -24,9 +31,39 @@ This framework simulates how real QA teams structure automation projects in prod
 Python  
 Pytest  
 Selenium WebDriver  
-Pytest-xdist (parallel execution)  
-Pytest-html (test reports)  
+pytest-xdist (parallel test execution)  
+pytest-html (test reports)  
+PyYAML (configuration management)  
 GitHub Actions (CI/CD)
+
+---
+
+# Framework Design
+
+The framework follows a layered automation architecture:
+
+```
+Tests
+   │
+   ▼
+Page Objects
+   │
+   ▼
+Base Page
+   │
+   ▼
+Driver Factory
+   │
+   ▼
+WebDriver (Selenium)
+```
+
+This architecture ensures:
+
+- clean and readable tests
+- reusable page actions
+- centralized driver management
+- scalable automation structure
 
 ---
 
@@ -64,11 +101,11 @@ python-qa-automation-framework
 
 ---
 
-# Features
+# Key Features
 
 ## Page Object Model
 
-Each page has its own class containing:
+Each page in the application has its own class containing:
 
 - locators
 - actions
@@ -80,7 +117,7 @@ Example:
 login_page.py
 ```
 
-Encapsulates login functionality so tests remain clean and readable.
+Encapsulates login behavior so tests remain clean and maintainable.
 
 ---
 
@@ -92,7 +129,7 @@ Tests run in parallel using:
 pytest -n 2
 ```
 
-This significantly reduces test execution time in larger test suites.
+Parallel execution significantly reduces execution time in larger test suites.
 
 ---
 
@@ -104,7 +141,7 @@ Framework settings are stored in:
 config/settings.yaml
 ```
 
-Example configuration:
+Example:
 
 ```
 base_url: https://the-internet.herokuapp.com
@@ -112,7 +149,7 @@ browser: chrome
 timeout: 10
 ```
 
-This allows easy environment management.
+This allows easy environment configuration.
 
 ---
 
@@ -132,7 +169,7 @@ Logs are generated automatically during test runs.
 
 If a test fails, the framework automatically captures a screenshot.
 
-This helps debug UI failures in CI environments.
+This helps quickly debug UI failures in CI environments.
 
 ---
 
@@ -144,7 +181,7 @@ Test reports are generated using:
 pytest-html
 ```
 
-Example run command:
+Example command:
 
 ```
 pytest -n 2 -v --html=report.html
@@ -155,20 +192,21 @@ This produces a visual report showing:
 - passed tests
 - failed tests
 - execution time
-- detailed results
+- detailed test results
 
 ---
 
 # Continuous Integration
 
-This project uses **GitHub Actions** to run tests automatically on every push.
+This project uses **GitHub Actions** to automatically run tests on every push.
 
-CI pipeline includes:
+The CI pipeline performs:
 
 - Python setup
 - Chrome installation
 - dependency installation
 - parallel test execution
+- test reporting
 
 Workflow file:
 
@@ -186,17 +224,23 @@ Workflow file:
 pip install -r requirements.txt
 ```
 
+---
+
 ## Run tests
 
 ```
 pytest -v
 ```
 
+---
+
 ## Run tests in parallel
 
 ```
 pytest -n 2 -v
 ```
+
+---
 
 ## Generate HTML report
 
@@ -222,12 +266,13 @@ def test_valid_login(driver):
 
 # Why This Framework Matters
 
-Many Selenium examples online show basic scripts.
+Many Selenium examples online show only simple scripts.
 
-This project demonstrates **how automation frameworks are actually built in real engineering environments**, including:
+This project demonstrates how **real automation frameworks are structured in professional environments**, including:
 
 - scalable architecture
-- reusable components
+- reusable page objects
+- centralized configuration
 - CI integration
 - parallel execution
 - maintainability
@@ -236,13 +281,13 @@ This project demonstrates **how automation frameworks are actually built in real
 
 # Future Improvements
 
-Possible future upgrades:
+Potential future enhancements:
 
 - Dockerized test execution
 - Allure reporting
-- API testing integration
-- test data management
+- API test integration
 - cross-browser testing
+- test data management
 
 ---
 
@@ -252,5 +297,5 @@ Jose Sandoval
 
 Premise Technician → Python Automation Engineer
 
-GitHub:  
+GitHub  
 https://github.com/je80sand
