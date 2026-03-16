@@ -301,3 +301,15 @@ Premise Technician → Python Automation Engineer
 
 GitHub  
 https://github.com/je80sand
+
+## CI Pipeline
+
+The project includes a GitHub Actions pipeline that automatically runs tests on every push.
+
+![CI Pipeline](docs/ci_pipeline.png)
+
+## HTML Test Report
+
+The framework also generates a professional pytest HTML report for test results and debugging.
+
+![HTML Test Report](docs/test_report.png)

@@ -1,16 +1,16 @@
 install:
- pip install -r requirements.txt
+	pip install -r requirements.txt
 
 test:
- pytest -v
+	pytest -v
 
 parallel:
- pytest -n 2 -v
+	pytest -n 2 -v
 
 report:
- pytest -n 2 -v --html=report.html
+	pytest -n 2 -v --html=report.html
 
 clean:
- rm -rf __pycache__
- rm -rf .pytest_cache
- rm -rf report.html
+	rm -rf __pycache__
+	rm -rf .pytest_cache
+	rm -rf report.html

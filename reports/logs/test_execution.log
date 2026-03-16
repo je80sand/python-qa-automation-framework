@@ -100,3 +100,29 @@
 2026-03-15 19:05:31,480 | INFO | driver_factory | Starting Chrome WebDriver
 2026-03-15 19:05:33,157 | INFO | SearchPage | Opening URL: https://www.google.com
 2026-03-15 19:05:33,850 | INFO | conftest | Quitting test driver
+2026-03-15 21:23:10,308 | INFO | conftest | Creating test driver
+2026-03-15 21:23:10,308 | INFO | conftest | Creating test driver
+2026-03-15 21:23:10,314 | INFO | driver_factory | Starting Chrome WebDriver
+2026-03-15 21:23:10,314 | INFO | driver_factory | Starting Chrome WebDriver
+2026-03-15 21:23:14,971 | INFO | LoginPage | Opening URL: https://the-internet.herokuapp.com/login
+2026-03-15 21:23:15,008 | INFO | LoginPage | Opening URL: https://the-internet.herokuapp.com/login
+2026-03-15 21:23:16,468 | INFO | LoginPage | Typing into element: ('id', 'username') with text: tomsmith
+2026-03-15 21:23:16,469 | INFO | LoginPage | Typing into element: ('id', 'username') with text: wronguser
+2026-03-15 21:23:16,486 | INFO | LoginPage | Finding element: ('id', 'username')
+2026-03-15 21:23:16,497 | INFO | LoginPage | Finding element: ('id', 'username')
+2026-03-15 21:23:16,828 | INFO | LoginPage | Typing into element: ('id', 'password') with text: wrongpassword
+2026-03-15 21:23:16,828 | INFO | LoginPage | Typing into element: ('id', 'password') with text: SuperSecretPassword!
+2026-03-15 21:23:16,828 | INFO | LoginPage | Finding element: ('id', 'password')
+2026-03-15 21:23:16,828 | INFO | LoginPage | Finding element: ('id', 'password')
+2026-03-15 21:23:17,030 | INFO | LoginPage | Clicking element: ('css selector', "button[type='submit']")
+2026-03-15 21:23:17,045 | INFO | LoginPage | Clicking element: ('css selector', "button[type='submit']")
+2026-03-15 21:23:17,511 | INFO | LoginPage | Getting text from element: ('id', 'flash')
+2026-03-15 21:23:17,512 | INFO | LoginPage | Finding element: ('id', 'flash')
+2026-03-15 21:23:17,515 | INFO | LoginPage | Getting text from element: ('id', 'flash')
+2026-03-15 21:23:17,516 | INFO | LoginPage | Finding element: ('id', 'flash')
+2026-03-15 21:23:17,559 | INFO | conftest | Quitting test driver
+2026-03-15 21:23:17,594 | INFO | conftest | Quitting test driver
+2026-03-15 21:23:17,922 | INFO | conftest | Creating test driver
+2026-03-15 21:23:17,925 | INFO | driver_factory | Starting Chrome WebDriver
+2026-03-15 21:23:19,628 | INFO | SearchPage | Opening URL: https://www.google.com
+2026-03-15 21:23:20,349 | INFO | conftest | Quitting test driver
