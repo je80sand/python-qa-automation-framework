@@ -29,4 +29,4 @@ jobs:
 
       - name: Run tests
         run: |
-          pytest -n 2 -v
+          pytest -n 2 -v --html=report.html
