@@ -1,3 +1,5 @@
+[![Python QA Automation Tests](https://github.com/je80sand/python-qa-automation-framework/actions/workflows/ci.yml/badge.svg)](https://github.com/je80sand/python-qa-automation-framework/actions/workflows/ci.yml)
+
 # Python QA Automation Framework
 
 A professional-grade **Selenium test automation framework** built with **Python, Pytest, and the Page Object Model (POM)**.
